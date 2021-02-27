@@ -21,4 +21,4 @@ if(media > 5){
     console.log(`Parabéns, a média foi de ${media}!`);
 }else{
     console.log(`Estudem mais!`);
-}
+} 
