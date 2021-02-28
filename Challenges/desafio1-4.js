@@ -57,7 +57,6 @@ function getTransactionsCount() {
     return count;
 }
 
-
 createTransaction({ type: 'credit', value: 50 });
 createTransaction({ type: 'credit', value: 120 });
 createTransaction({ type: 'debit', value: 80 });
