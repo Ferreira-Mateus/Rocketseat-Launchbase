@@ -41,4 +41,4 @@ for (let usuario of usuarios) {
     } else {
         console.log(`${usuario.nome} possui saldo NEGATIVO de ${saldo.toFixed(2)}`)
     }
-}
+} 
