@@ -33,7 +33,7 @@ const objeto = {
     {nome: 'Python', especialidade: 'Data Science'},
     {nome: 'JavaScript', especialidade: 'WebMobile'}
   ]
-};
+}; 
 
 console.log(`O usuário ${usuario[0].nome} tem ${usuario[0].idade} anos e usa a tecnologia ${objeto.tecnologias[2].nome} com especialidade em ${objeto.tecnologias[2].especialidade}.`);
 console.log(`O usuário ${usuario[1].nome} tem ${usuario[1].idade} anos e usa a tecnologia ${objeto.tecnologias[0].nome} com especialidade em ${objeto.tecnologias[0].especialidade}.`);
