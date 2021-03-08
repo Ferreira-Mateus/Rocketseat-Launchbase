@@ -1,0 +1,28 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: SF Pro Display,SF Pro Icons,AOS Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+
+header {
+    padding: 13px;
+    border-bottom: 1px solid #1d1d1f;
+    background-color: #000000CC;
+}
+
+header nav {
+    text-align: center;
+}
+
+header nav a {
+    color: #cccccc;
+    font-size: 15px;
+    line-height: 25px;
+    margin: 20px;
+    text-decoration: none;
+}
+
+header nav a:hover {
+    color: white;
+    transition: color 200ms;
+}

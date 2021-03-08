@@ -1,0 +1,143 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: SF Pro Display,SF Pro Icons,AOS Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+
+header {
+    position: relative;
+    padding: 13px;
+    border-bottom: 1px solid #1d1d1f;
+    background-color: #000000CC;
+}
+
+header nav {
+    text-align: center;
+}
+
+header nav a {
+    color: #cccccc;
+    font-size: 15px;
+    line-height: 25px;
+    margin: 20px;
+    text-decoration: none;
+}
+
+header nav a:hover {
+    color: white;
+    transition: color 200ms;
+}
+
+.text_user {
+    color: #585858;
+    margin-bottom: 10px;
+}
+
+section{
+    position: relative;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+
+    text-align: center;
+    height: 400px;
+    width: 100%;
+    margin-top: 40px;
+}
+
+h1 {
+    color: #1d1d1f;
+    text-align: center;
+    font-size: 35px;
+    margin: 50px;
+}
+
+input {
+    outline: none;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    align-items: center;
+    text-align: left;
+    height: 50px;
+    width: 320px;
+    padding-left:  10px;
+}
+
+#input_nome {
+    width: 150px;
+}
+#input_sobrenome {
+    width: 150px;
+}
+
+a{
+    text-decoration: none;
+    color: #0066cc;
+}
+
+.regiao {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#text_inputs {
+    color: #666666;
+    font-size: 14px;
+}
+
+#cidade {
+    width: 250px;
+}
+
+#estado {
+    width: 50px;
+}
+
+.cadastro {
+    margin-top: 20px;
+}
+
+.text_input {
+    color: #585858;
+    text-align: left;
+    width: 320;
+    margin: 0px 0px 35px;
+    margin-left: 5px;
+}
+
+button {
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    background-color: #0071e3;
+    color: white;
+    text-align: center;
+    margin-bottom: 50px;
+    height: 50px;
+    width: 320px;
+}
+
+#esqueci_senha {
+    font-size: 20px;
+    color: #0066cc;
+    text-align: left;
+    text-decoration: none;
+}
+
+.footer {
+    text-align: center; 
+    padding: 13px;
+    border-top: 1px solid #d4d4d4;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: white;
+    color: black; 
+}
+
+.footer a {
+    text-decoration: none;
+}
