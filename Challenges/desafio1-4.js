@@ -1,5 +1,4 @@
 //DESAFIO OPERAÇÕES BANCÁRIAS
-
 const user = {
     nome: 'Mateus',
     transactions: [],
@@ -57,7 +56,6 @@ function getTransactionsCount() {
     return count;
 }
 
-
 createTransaction({ type: 'credit', value: 50 });
 createTransaction({ type: 'credit', value: 120 });
 createTransaction({ type: 'debit', value: 80 });
@@ -71,3 +69,4 @@ console.log(getHigherTransactionByType('debit'));
 console.log(getAverageTransactionValue()); 
 
 console.log(getTransactionsCount()); 
+ 
