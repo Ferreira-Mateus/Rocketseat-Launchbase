@@ -1,5 +1,4 @@
 //DESAFIO OPERAÇÕES BANCÁRIAS
-
 const user = {
     nome: 'Mateus',
     transactions: [],
