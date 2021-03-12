@@ -32,7 +32,7 @@ const sexo = "F";
 const idade = 49;
 const contribuicao = 36;
 
-const regra = idade + contribuicao;
+const regra = idade + contribuicao; 
 
 if(contribuicao >= 30){
     if(regra >= 85){
