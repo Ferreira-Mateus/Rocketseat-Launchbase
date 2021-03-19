@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="..\CSS\style.css">
+
+    <title>Simulador Financeiro</title>
+</head>
+
+<body>
+    <header>
+        <nav class="header">
+            <a href="index.html">Home</a>
+        </nav>
+    </header>
+
+
+    <section>
+        <div class="section">
+            <h1>Simulador Financeiro</h1>
+
+            <input id="nome_produto" type="text" placeholder="Nome do Produto"><br>
+            <input id="val_gasto" type="text" placeholder="Valor de gastos por ano (R$)"><br>
+            <input id="val_venda" type="text" placeholder="Valor de vendas por ano (R$)"><br>
+            <input id="val_perda" type="text" placeholder="Valor de perdas por ano (R$)"><br>
+            
+            <button id="bt_calc" onclick="calc()">Calcular</button>
+            <button id="bt_limpar" onclick="limpar()">Limpar</button>
+        </div>
+
+        <div id="div_resultado">
+        </div>
+    </section>
+
+
+    <footer>
+        <div class="footer">
+
+        </div>
+    </footer>    
+</body>
+</html>
+
+<script>
+    function calc() {
+        var lucro = Number(val_gasto.value/val_venda.value) * 100;
+        var porcentagem_compra = Number(val_gasto.value / val_venda.value) * 100;
+        var porcentagem_venda = 100 - porcentagem_compra;
+
+        div_resultado.innerHTML = `<div style="background-color: red; height: 30px; float: left; width: ${porcentagem_compra}%"></div>`;
+        div_resultado.innerHTML += `<div style="background-color: green; height: 30px; float: left; width: ${porcentagem_venda}%"></div>`;
+    }
+</script>

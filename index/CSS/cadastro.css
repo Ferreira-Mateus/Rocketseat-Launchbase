@@ -88,11 +88,20 @@ a{
 }
 
 #cidade {
-    width: 250px;
+    width: 200px;
 }
 
 #estado {
     width: 50px;
+}
+
+#est {
+    height: 50px;
+    width: 110px;
+    padding-left: 10px;
+    outline: none;
+    border-radius: 10px;
+    color: #818181;
 }
 
 .cadastro {
@@ -141,3 +150,4 @@ button {
 .footer a {
     text-decoration: none;
 }
+

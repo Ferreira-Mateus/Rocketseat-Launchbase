@@ -1,0 +1,26 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: SF Pro Display,SF Pro Icons,AOS Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+
+.header {
+    border-bottom: 1px solid #1d1d1f;
+    background-color: #000000CC;
+    color: white;
+    overflow: auto;
+}
+
+.navbar {
+    list-style: none;
+    float: right;
+}
+
+.titulo {
+    float: left;
+}
+
+li {
+    float: left;
+    margin: 20px;
+}
